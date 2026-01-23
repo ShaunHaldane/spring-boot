@@ -1231,7 +1231,7 @@ bom {
 			releaseNotes("https://github.com/Kotlin/kotlinx.coroutines/releases/tag/{version}")
 		}
 	}
-	library("Kotlin Serialization", "1.9.0") {
+	library("Kotlin Serialization", "1.10.0") {
 		group("org.jetbrains.kotlinx") {
 			bom("kotlinx-serialization-bom")
 		}
@@ -2278,6 +2278,7 @@ bom {
 				"spring-boot-transaction",
 				"spring-boot-validation",
 				"spring-boot-web-server",
+				"spring-boot-web-server-test",
 				"spring-boot-webclient",
 				"spring-boot-webclient-test",
 				"spring-boot-webflux",
@@ -2322,7 +2323,7 @@ bom {
 			releaseNotes("https://github.com/SeleniumHQ/selenium/releases/tag/selenium-{version}")
 		}
 	}
-	library("Selenium HtmlUnit", "4.39.0") {
+	library("Selenium HtmlUnit", "4.40.0") {
 		group("org.seleniumhq.selenium") {
 			modules = [
 				"htmlunit3-driver"
@@ -2376,7 +2377,7 @@ bom {
 			]
 		}
 	}
-	library("Spring AMQP", "4.1.0-SNAPSHOT") {
+	library("Spring AMQP", "4.1.0-M1") {
 		considerSnapshots()
 		group("org.springframework.amqp") {
 			bom("spring-amqp-bom")
@@ -2391,7 +2392,7 @@ bom {
 			releaseNotes("https://github.com/spring-projects/spring-amqp/releases/tag/v{version}")
 		}
 	}
-	library("Spring Batch", "6.0.2-SNAPSHOT") {
+	library("Spring Batch", "6.0.2") {
 		considerSnapshots()
 		group("org.springframework.batch") {
 			bom("spring-batch-bom")
@@ -2436,7 +2437,7 @@ bom {
 			releaseNotes("https://github.com/spring-projects/spring-framework/releases/tag/v{version}")
 		}
 	}
-	library("Spring GraphQL", "2.0.2-SNAPSHOT") {
+	library("Spring GraphQL", "2.0.2") {
 		considerSnapshots()
 		group("org.springframework.graphql") {
 			modules = [
@@ -2471,7 +2472,7 @@ bom {
 			releaseNotes("https://github.com/spring-projects/spring-hateoas/releases/tag/{version}")
 		}
 	}
-	library("Spring Integration", "7.1.0-SNAPSHOT") {
+	library("Spring Integration", "7.1.0-M1") {
 		considerSnapshots()
 		group("org.springframework.integration") {
 			bom("spring-integration-bom")
@@ -2486,7 +2487,7 @@ bom {
 			releaseNotes("https://github.com/spring-projects/spring-integration/releases/tag/v{version}")
 		}
 	}
-	library("Spring Kafka", "4.0.2-SNAPSHOT") {
+	library("Spring Kafka", "4.0.2") {
 		considerSnapshots()
 		group("org.springframework.kafka") {
 			modules = [
@@ -2524,7 +2525,7 @@ bom {
 			releaseNotes("https://github.com/spring-projects/spring-ldap/releases/tag/{version}")
 		}
 	}
-	library("Spring Pulsar", "2.0.2-SNAPSHOT") {
+	library("Spring Pulsar", "2.0.2") {
 		considerSnapshots()
 		group("org.springframework.pulsar") {
 			bom("spring-pulsar-bom")
@@ -2554,7 +2555,7 @@ bom {
 			releaseNotes("https://github.com/spring-projects/spring-restdocs/releases/tag/v{version}")
 		}
 	}
-	library("Spring Security", "7.1.0-SNAPSHOT") {
+	library("Spring Security", "7.1.0-M1") {
 		considerSnapshots()
 		group("org.springframework.security") {
 			bom("spring-security-bom")
